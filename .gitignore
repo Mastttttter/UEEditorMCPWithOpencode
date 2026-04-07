@@ -1,0 +1,42 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Generated batch files (use templates instead)
+run_mcp.bat
+run_mcp_logs.bat
+
+# Internal planning files (not needed by end users)
+PLAN.md
+tasks.json
+
+# Local overrides
+*.local
+.env.local

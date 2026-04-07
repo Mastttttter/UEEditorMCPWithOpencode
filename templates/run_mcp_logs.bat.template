@@ -1,0 +1,6 @@
+@echo off
+REM UEEditorMCP Logs Server Startup Script
+REM This file is auto-generated during configuration
+
+set PYTHONPATH={{PROJECT_PATH}}\Plugins\UEEditorMCP\Python
+{{PROJECT_PATH}}\Plugins\UEEditorMCP\Python\.venv\Scripts\python.exe -m ue_editor_mcp.server_unreal_logs
